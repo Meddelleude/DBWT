@@ -1,0 +1,57 @@
+body {
+    padding-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+a{
+    color: turquoise;
+}
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#menu-container{
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+}
+#menu {
+    display: inline-grid;
+    border-style: solid ;
+}
+#menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+#latein{
+    border: 1px solid black;
+    margin-top: -15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ank{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.karte{
+    border:1px solid black;
+}
+#z {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#z > div {
+    margin: 10px;
+}
+#box{
+    margin-left: 100px;
+}

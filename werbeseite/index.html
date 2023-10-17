@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>werbeseite</title>
+    <link href="style.css"  rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu-container">
+        <div class="head">
+            <img id="logo" src="logo.png" alt="stud logo">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#ank">Ankündigung</a></li>
+                <li><a href="#speisen">Speisen</a></li>
+                <li><a href="#zahlen">Zahlen</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#wichtig">Wichtig für Uns</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <hr>
+    <div class="main">
+        <div id="box">
+        <h1 id="ank">Bald gibt es essen auch online ;)</h1>
+        <p id="latein">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias culpa debitis dolores ea eaque
+        est et eveniet ex excepturi expedita harum incidunt iusto nemo neque, nobis obcaecati officiis quas, quasi
+        quidem saepe sunt tempore totam vero? Ad assumenda atque commodi consequuntur corporis dicta eius eligendi est
+        excepturi fugiat, illo iure modi natus nemo odio praesentium quia repellat sunt unde voluptate. Amet commodi
+        enim eos error fuga harum itaque iure libero, maxime minus natus nobis, possimus quae quaerat reiciendis
+        reprehenderit soluta tempore vero. Ad asperiores dolor dolore iure labore minus molestiae nemo nihil quidem quod
+        recusandae rem repellat rerum sequi, vero?</p>
+        </div>
+        <h1 id="speisen">Köstlichkeiten ,die sie erwarten</h1>
+        <table class="karte">
+            <thead>
+            <tr>
+                <th class="karte"></th>
+                <th class="karte">Preis intern</th>
+                <th class="karte">Preis extern</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="karte">Rindfleisch mit Bambus, Kaiserschoten <br>Und rotem Paprika, dazu Mie Nudeln</td>
+                <td class="karte">3,50</td>
+                <td class="karte">6,20</td>
+            </tr>
+            <tr>
+                <td class="karte">Spinatrisotto mit kleinen Samosateichecken <br>Und gemischter Salat</td>
+                <td class="karte">2,90</td>
+                <td class="karte">5,30</td>
+            </tr>
+            <tr>
+                <td class="karte">...</td>
+                <td class="karte">...</td>
+                <td class="karte">...</td>
+            </tr>
+            </tbody>
+        </table>
+        <h1 id="zahlen">E-Mensa in zahlen</h1>
+        <div id="z">
+            <div>x besucher</div>
+            <div>y Anmeldungen zum <div>Newsletter</div></div>
+            <div>z Speisen</div>
+        </div>
+        <h1 id="kontakt">Interesse geweckt? Wir informieren sie!</h1>
+        <form method="post" action="formdata.html" id="eingaben">
+            <table id="news">
+                <thead>
+                <tr>
+                    <th><label for="name">Ihr Name:</label></th>
+                    <th><label for="email">Ihre E-Mail:</label></th>
+                    <th><label for="sprache">Newsletter bitte in:</label></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input required id="name" name="name" type="text" placeholder="Vorname"></td>
+                    <td><input required id="email" name="email" type="email"></td>
+                    <td>
+                        <select class="select" id="sprache">
+                            <option>Deutsch</option>
+                            <option>English</option>
+                        </select>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <input required type="checkbox" name="daten" id="daten" value="Datenschutzhinweis gelesen"><label for="daten">Den Datenschutzbestimmungen stimme ich zu</label>
+            <button disabled id="submit" type="submit">Zum Newsletter anmelden</button>
+        </form>
+        <h1 id="wichtig">Das ist wichtig</h1>
+            <ul>
+                <li>Beste frische saisonale Zutaten</li>
+                <li>Ausgewogene abwechslungsreichen Gerichte</li>
+                <li>Sauberkeit</li>
+            </ul>
+        <h1>Wir freuen uns auf ihren Besuch!</h1>
+        <hr>
+    </div>
+    <div id="bottom">
+        <ul>
+            <li>(c) E-Mensa GmbH</li>
+            <li>Ahmed Jumaa &amp; Mohammed Hammado</li>
+            <li id="imp"><a href="#imp">Impressum</a></li>
+        </ul>
+    </div>
+</body>
+</html>
